@@ -1,0 +1,21 @@
+{
+  "gateway": {
+    "url": "ws://139.224.42.111:18789",
+    "httpUrl": "http://139.224.42.111:18789",
+    "authToken": "${OPENCLAW_AUTH_TOKEN}",
+    "timeout": 30000,
+    "reconnect": true,
+    "reconnectInterval": 5000
+  },
+  "model": {
+    "provider": "zhipu",
+    "modelId": "glm-4-plus",
+    "contextWindow": 128000,
+    "maxTokens": 4096,
+    "temperature": 0.7
+  },
+  "logging": {
+    "level": "info",
+    "path": "/Users/kjonekong/OpenClaw-PEnhance/logs"
+  }
+}

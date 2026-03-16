@@ -1,0 +1,24 @@
+{
+  "storagePath": "/Users/kjonekong/OpenClaw-PEnhance/memory",
+  "autoSaveTriggers": ["file_save", "task_complete", "context_threshold"],
+  "contextThreshold": 100000,
+  "retentionDays": 30,
+  "compressionEnabled": true,
+  "compressionRatio": 0.3,
+  "sessions": {
+    "maxFileSize": "10MB",
+    "autoIncrement": true,
+    "namingPattern": "{date}_session_{index}.json"
+  },
+  "context": {
+    "snapshotInterval": 300000,
+    "maxSnapshots": 50,
+    "includeCodeChanges": true,
+    "includeDecisions": true
+  },
+  "hooks": {
+    "onFileSave": true,
+    "onTaskComplete": true,
+    "onContextOverflow": true
+  }
+}

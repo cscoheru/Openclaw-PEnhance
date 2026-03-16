@@ -1,0 +1,37 @@
+{
+  "sessionId": "{session_id}",
+  "createdAt": "{timestamp}",
+  "updatedAt": "{timestamp}",
+  "workingDirectory": "{cwd}",
+  "project": {
+    "name": "{project_name}",
+    "type": "{project_type}",
+    "language": "{language}"
+  },
+  "context": {
+    "currentTask": "",
+    "taskDescription": "",
+    "completedWork": [],
+    "pendingTasks": [],
+    "keyDecisions": [],
+    "codeChanges": []
+  },
+  "memory": {
+    "shortTerm": {
+      "recentFiles": [],
+      "recentCommands": [],
+      "activeVariables": {}
+    },
+    "longTerm": {
+      "patterns": [],
+      "learnings": [],
+      "preferences": {}
+    }
+  },
+  "metadata": {
+    "tokenCount": 0,
+    "fileCount": 0,
+    "commitCount": 0,
+    "sessionDuration": 0
+  }
+}

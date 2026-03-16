@@ -1,0 +1,26 @@
+{
+  "algorithmsPath": "/Users/kjonekong/OpenClaw-PEnhance/memory/algorithms",
+  "patterns": {
+    "sorting": ["quicksort", "mergesort", "heapsort", "radix-sort"],
+    "searching": ["binary-search", "depth-first-search", "breadth-first-search"],
+    "graph": ["dijkstra", "bellman-ford", "floyd-warshall", "a-star"],
+    "dynamicProgramming": ["knapsack", "longest-common-subsequence", "edit-distance"],
+    "greedy": ["activity-selection", "huffman-coding"],
+    "backtracking": ["n-queens", "sudoku-solver"],
+    "machineLearning": ["gradient-descent", "k-means", "decision-tree"]
+  },
+  "analysis": {
+    "complexityAnalysis": true,
+    "boundaryConditions": true,
+    "testGeneration": true,
+    "optimizationSuggestions": true,
+    "visualExplanation": false
+  },
+  "output": {
+    "format": "markdown",
+    "includePseudocode": true,
+    "includeTimeComplexity": true,
+    "includeSpaceComplexity": true,
+    "includeExamples": true
+  }
+}

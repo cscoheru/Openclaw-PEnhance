@@ -1,0 +1,23 @@
+{
+  "plansPath": "/Users/kjonekong/OpenClaw-PEnhance/memory/plans",
+  "enforcement": {
+    "strictMode": true,
+    "allowDeviation": false,
+    "requireApproval": true
+  },
+  "tracking": {
+    "checkInterval": 60000,
+    "trackCodeChanges": true,
+    "trackGitCommits": true
+  },
+  "deviationHandling": {
+    "warnThreshold": 0.3,
+    "blockThreshold": 0.5,
+    "actions": ["update_plan", "rollback_code", "mark_technical_debt"]
+  },
+  "notifications": {
+    "onDeviation": true,
+    "onTaskComplete": true,
+    "onPlanUpdate": true
+  }
+}

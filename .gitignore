@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
+
+# Logs
+logs/*.log
+
+# Memory data (can be regenerated)
+memory/sessions/*.json
+memory/context/*.md
+memory/algorithms/*.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
