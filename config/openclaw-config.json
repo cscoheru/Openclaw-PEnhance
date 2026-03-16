@@ -8,11 +8,20 @@
     "reconnectInterval": 5000
   },
   "model": {
-    "provider": "zhipu",
-    "modelId": "glm-4-plus",
+    "provider": "zhipu-anthropic",
+    "endpoint": "https://open.bigmodel.cn/api/anthropic",
+    "modelId": "claude-sonnet-4-20250514",
+    "actualModel": "glm-4.7",
     "contextWindow": 128000,
     "maxTokens": 4096,
     "temperature": 0.7
+  },
+  "api": {
+    "type": "anthropic-messages",
+    "headers": {
+      "Content-Type": "application/json",
+      "anthropic-version": "2023-06-01"
+    }
   },
   "logging": {
     "level": "info",
