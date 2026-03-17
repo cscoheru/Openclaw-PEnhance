@@ -54,7 +54,7 @@ main() {
 EOF
 )
 
-    python3 "$MEMORY_SCRIPT" save --data "$context_data" >> "$LOG_FILE" 2>&1
+    python3 "$MEMORY_SCRIPT" save --data "$context_data" >> "$LOG_FILE" 2>&1 || true
 
     log "Context saved for: $file_path"
 }

@@ -1,0 +1,16 @@
+[project]
+name = "penhance-mcp"
+version = "1.0.0"
+description = "PEnhance MCP Server - Programming Enhancement Tools for Claude Code"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.0.0",
+]
+
+[project.scripts]
+penhance-mcp = "penhance_mcp:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
